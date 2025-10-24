@@ -1,0 +1,15 @@
+Model, Advisor 0 Train Set R2 score:, Advisor 0 Test Set R2 score:
+initial LR, 0.04253743338437477, -0.03867018778104114
+LR with polynomial 1 grade - 99 features, 0.029950622393744353, -0.01380300310802185
+LR with polynomial 2 grade - 1324 features, 0.0.4027497566458327, -0.21924548075364214
+LR plus 5 sums -  features 54, 0.5024996847354554,  0.48941990481747366 
+LR plus plynomials of this 5 sums features 1 grade - 60 features, 0.5027087421718427, 0.48761551579062956
+LR plus plynomials of this 5 sums features 2 grade - 75 features, 0.5607045605328774, 0.538464494714376
+LR plus plynomials of this 5 sums features 3 grade - 110 features, 0.5876537840980809, 0.5706444588088601
+LR plus plynomials of this 5 sums features 4 grade - 180, 0.6064654924402519, 0.5684737816469072
+LR plus plynomials of this 5 sums features 5 grade - 306, 0.6136156138875033, 0.48998516508027556
+initial NN hidden_layer_sizes=200 max_iter=2000, 0.6058668280356305, -0.7922759630132679
+NN hidden_layer_sizes=100 max_iter=2000 - plus 5 sums -  features 54, 0.5797225787297777, 0.4147953179693955
+NN hidden_layer_sizes=200 max_iter=2000 - plus 5 sums -  features 54, 0.8693064628459216, 0.2552814507066651
+NN hidden_layer_sizes=100 max_iter=2000 - plus 5 sums features 2 grade - 75, -5.263753081664834, -16.539234053206354
+NN hidden_layer_sizes=100 max_iter=2000 - plus 5 sums features 1 grade - 60, 0.6109101629125724, 0.47388608134271004
