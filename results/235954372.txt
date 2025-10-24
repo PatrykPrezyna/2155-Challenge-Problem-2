@@ -1,0 +1,4 @@
+Invalid grids: 89
+Mean advisor rating (all advisors, all grids): 0.6008950716305843
+Score: 0.005755102040816327
+Comment: first submission

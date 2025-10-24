@@ -8,8 +8,18 @@ LR plus plynomials of this 5 sums features 2 grade - 75 features, 0.560704560532
 LR plus plynomials of this 5 sums features 3 grade - 110 features, 0.5876537840980809, 0.5706444588088601
 LR plus plynomials of this 5 sums features 4 grade - 180, 0.6064654924402519, 0.5684737816469072
 LR plus plynomials of this 5 sums features 5 grade - 306, 0.6136156138875033, 0.48998516508027556
-initial NN hidden_layer_sizes=200 max_iter=2000, 0.6058668280356305, -0.7922759630132679
+initial NN hidden_layer_sizes=100 max_iter=2000, 0.6058668280356305, -0.7922759630132679
 NN hidden_layer_sizes=100 max_iter=2000 - plus 5 sums -  features 54, 0.5797225787297777, 0.4147953179693955
 NN hidden_layer_sizes=200 max_iter=2000 - plus 5 sums -  features 54, 0.8693064628459216, 0.2552814507066651
 NN hidden_layer_sizes=100 max_iter=2000 - plus 5 sums features 2 grade - 75, -5.263753081664834, -16.539234053206354
 NN hidden_layer_sizes=100 max_iter=2000 - plus 5 sums features 1 grade - 60, 0.6109101629125724, 0.47388608134271004
+initial LR (one hot encoding) - 245, 0.5418798628139723, 0.4853912548393591
+LR with polynomial 1 grade  (one hot encoding) - 30626 features, 1, 0.516716797336639
+LR plus 5 sums -  features 250, 0.5418798628139723,  0.4853912548393591
+LR plus plynomials of this 5 sums features 4 grade (one hot encoding) - 376, 0.6464996183658551, 0.5554957678076193
+initial NN hidden_layer_sizes=100 max_iter=2000 (one hot encoding), 0.9982667834584473, 0.17842501421369905
+initial NN hidden_layer_sizes=8000 max_iter=2000 (one hot encoding), 0.9997944761646285, 0.5245190228731493
+
+
+
+
