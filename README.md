@@ -3,13 +3,13 @@
 To setup environments first create a new environmnet in conda/mamba:
 
 ```bash
-conda create --name CP1 python=3.10
+conda create --name CP2 python=3.10
 ```
 
 Then activate the environment and install packages using pip:
 
 ```bash
-conda activate CP1
+conda activate CP2
 pip install -r requirements.txt
 ```
 
