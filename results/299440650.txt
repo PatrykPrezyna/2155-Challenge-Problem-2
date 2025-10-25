@@ -1,0 +1,4 @@
+Invalid grids: 82
+Mean advisor rating (all advisors, all grids):  0.5041454518108557
+Score: 0.010751020408163265
+Comment: one hot encoding
