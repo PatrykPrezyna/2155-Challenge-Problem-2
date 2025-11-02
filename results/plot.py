@@ -48,13 +48,13 @@ fig.patch.set_facecolor('white')
 # Add main title and subtitle in header area
 title_ax = fig.add_subplot(gs[0, :])
 title_ax.axis('off')
-title_ax.text(0, 0.65, 'Model performance analysis', 
-              fontsize=26, fontweight='bold', 
-              family='sans-serif', va='top',
-              color=ECONOMIST_BLACK)
-title_ax.text(0, 0.15, 'R² scores by advisor and model type', 
-              fontsize=12, color=ECONOMIST_DARK_GRAY, 
-              family='sans-serif', va='top')
+# title_ax.text(0, 0.65, 'Model performance analysis', 
+#               fontsize=26, fontweight='bold', 
+#               family='sans-serif', va='top',
+#               color=ECONOMIST_BLACK)
+# title_ax.text(0, 0.15, 'R² scores by advisor and model type', 
+#               fontsize=12, color=ECONOMIST_DARK_GRAY, 
+#               family='sans-serif', va='top')
 
 # Add legend in header
 legend_elements = [
@@ -181,16 +181,16 @@ for row_idx, advisor in enumerate(advisors):
             bar.set_linewidth(0.5)
 
 # Add source note with better styling
-fig.text(0.07, 0.02, 'Source: Model evaluation results', 
-         fontsize=9, style='italic', color=ECONOMIST_DARK_GRAY,
-         family='sans-serif', alpha=0.8)
+# fig.text(0.07, 0.02, 'Source: Model evaluation results', 
+#          fontsize=9, style='italic', color=ECONOMIST_DARK_GRAY,
+#          family='sans-serif', alpha=0.8)
 
 # Add a subtle border around the entire figure
-rect = mpatches.Rectangle((0.06, 0.05), 0.92, 0.88, 
-                          linewidth=1.5, edgecolor=ECONOMIST_LIGHT_GRAY, 
-                          facecolor='none', transform=fig.transFigure, 
-                          clip_on=False, zorder=1000)
-fig.patches.append(rect)
+# rect = mpatches.Rectangle((0.06, 0.05), 0.92, 0.88, 
+#                           linewidth=1.5, edgecolor=ECONOMIST_LIGHT_GRAY, 
+#                           facecolor='none', transform=fig.transFigure, 
+#                           clip_on=False, zorder=1000)
+# fig.patches.append(rect)
 
 # Save with high quality
 plt.savefig('model_performance_economist_style.png', dpi=300, 

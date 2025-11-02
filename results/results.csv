@@ -1,25 +1,26 @@
-Model, Advisor 0 Train Set R2 score:, Advisor 0 Test Set R2 score:
-initial LR, 0.04253743338437477, -0.03867018778104114
-LR with polynomial 1 grade - 99 features, 0.029950622393744353, -0.01380300310802185
-LR with polynomial 2 grade - 1324 features, 0.0.4027497566458327, -0.21924548075364214
-LR plus 5 sums -  features 54, 0.5024996847354554,  0.48941990481747366 
-LR plus plynomials of this 5 sums features 1 grade - 60 features, 0.5027087421718427, 0.48761551579062956
-LR plus plynomials of this 5 sums features 2 grade - 75 features, 0.5607045605328774, 0.538464494714376
-LR plus plynomials of this 5 sums features 3 grade - 110 features, 0.5876537840980809, 0.5706444588088601
-LR plus plynomials of this 5 sums features 4 grade - 180, 0.6064654924402519, 0.5684737816469072
-LR plus plynomials of this 5 sums features 5 grade - 306, 0.6136156138875033, 0.48998516508027556
-initial NN hidden_layer_sizes=100 max_iter=2000, 0.6058668280356305, -0.7922759630132679
-NN hidden_layer_sizes=100 max_iter=2000 - plus 5 sums -  features 54, 0.5797225787297777, 0.4147953179693955
-NN hidden_layer_sizes=200 max_iter=2000 - plus 5 sums -  features 54, 0.8693064628459216, 0.2552814507066651
-NN hidden_layer_sizes=100 max_iter=2000 - plus 5 sums features 2 grade - 75, -5.263753081664834, -16.539234053206354
-NN hidden_layer_sizes=100 max_iter=2000 - plus 5 sums features 1 grade - 60, 0.6109101629125724, 0.47388608134271004
-initial LR (one hot encoding) - 245, 0.5418798628139723, 0.4853912548393591
-LR with polynomial 1 grade  (one hot encoding) - 30626 features, 1, 0.516716797336639
-LR plus 5 sums -  features 250, 0.5418798628139723,  0.4853912548393591
-LR plus plynomials of this 5 sums features 4 grade (one hot encoding) - 376, 0.6464996183658551, 0.5554957678076193
-initial NN hidden_layer_sizes=100 max_iter=2000 (one hot encoding), 0.9982667834584473, 0.17842501421369905
-initial NN hidden_layer_sizes=8000 max_iter=2000 (one hot encoding), 0.9997944761646285, 0.5245190228731493
-
-
-
-
+Model group,Model name, Advisor 0 Train Set R2 score:, Advisor 0 Test Set R2 score:, Advisor 1 Train Set R2 score:, Advisor 1 Test Set R2 score:, Advisor 2 Train Set R2 score:, Advisor 2 Test Set R2 score:, Advisor 3 Train Set R2 score:, Advisor3 Test Set R2 score:,Asociated notebook
+LR,Baseline,0.026,0.004,0.065,0.037,0.02,-0.001,0.0046,0,
+LR, + OneHot,0.541879863,0.485391255,0.723,0.74,0.26,0.168,0.573,0.531,
+LR, + OneHot + counts,0.541879863,0.485391255,0.723,0.74,0.26,0.168,0.573,0.531,
+LR, + OneHot + counts + polynomial 4,0.646,0.555,0.885,0.834,0.478,0.362,0.88,0.871,
+LR, + OneHot + counts + polynomial 4 + Domain ,,,,,,,,,
+CNN,Baseline,0.994,0.67,0.997,0.897,0.984,0.606,0.989,0.778,CNN_baseline.ipynb
+CNN, + increase kernal to 3x3,0.991,0.664,0.996,0.939,0.972,0.556,0.977,0.866,
+CNN,New Architecture,0.964,0.832,0.984,0.97,0.905,0.79,0.946,0.931,CNN_new_architecture.ipynb
+CNN,New Architecture +  sigmid function,0.968,0.822,0.991,0.981,0.955,0.834,0.964,0.94,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,Y,,,,,,,,,
